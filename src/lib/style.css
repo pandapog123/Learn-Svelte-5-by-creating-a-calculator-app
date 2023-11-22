@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Narnoor&family=Roboto&family=Roboto+Mono&display=swap");
+
+body {
+  overflow: hidden;
+  margin: 0;
+  background-image: radial-gradient(
+    circle at 20%,
+    #f23333,
+    #f233ef,
+    #339cf2,
+    #33f286
+  );
+  background-size: 1000%, 1000%;
+  animation: gradient-bg 15s ease-in-out infinite;
+  font-family: "Bitter", serif;
+}
+
+@keyframes gradient-bg {
+  0% {
+    background-position: 0%, 30%;
+  }
+
+  25% {
+    background-position: 50%, 90%;
+  }
+
+  50% {
+    background-position: 100%, 50%;
+  }
+
+  75% {
+    background-position: 50%, 10%;
+  }
+
+  100% {
+    background-position: 0%, 30%;
+  }
+}
