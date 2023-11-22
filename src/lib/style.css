@@ -13,6 +13,8 @@ body {
   background-size: 1000%, 1000%;
   animation: gradient-bg 15s ease-in-out infinite;
   font-family: "Bitter", serif;
+  width: 100vw;
+  height: 100vh;
 }
 
 @keyframes gradient-bg {
