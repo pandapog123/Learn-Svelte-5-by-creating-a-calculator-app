@@ -91,8 +91,7 @@
               ? 10 **
                 (secondNumber.toString().split(".")[1].length +
                   1 +
-                  zerosAdded +
-                  1)
+                  zerosAdded)
               : 10 ** (zerosAdded + 1));
 
         zerosAdded = 0;
